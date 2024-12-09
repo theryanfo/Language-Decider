@@ -1,8 +1,4 @@
-# testing.py
-
 from adfa import adfa
-
-# Define all test cases as strings
 
 accepting_valid_nonempty_input = '''
 {
