@@ -3,11 +3,16 @@ This Python project provides a solution for solving the Acceptance Problem for D
 
 ## Features
 Parse a DFA: The DFA is provided as a JSON-like string representation containing key information about the DFA, such as states, alphabet, transitions, start state, and accept states.
+
 Test input strings: The program evaluates input strings by simulating the DFA’s transitions, determining whether the string is accepted or rejected based on whether the DFA ends in an accepting state.
+
 Error Handling: The program detects various types of input errors, such as missing or malformed DFA definitions and incorrect transition representations.
 Project Structure
+
 adfa.py: Contains the main functionality for parsing the DFA and input strings, and determining whether the string is accepted or rejected.
+
 testing.py: Contains a suite of test cases to validate the functionality of the adfa function.
+
 README.md: This file, which provides an overview of the project and usage instructions.
 
 ## Requirements
@@ -44,5 +49,7 @@ To run the tests and check if the DFA acceptance solver works correctly, use the
 The test cases include:
 
 Valid inputs: Check if the DFA correctly accepts strings.
+
 Rejecting inputs: Check if the DFA correctly rejects strings.
+
 Invalid input formats: Test the program’s error handling for malformed DFA definitions or invalid input.
