@@ -30,7 +30,7 @@ The input string is stripped of any extra whitespace and processed symbol by sym
 
 ## 3. Example Strings
 
-### Example 1: String in the Set (Accepted by the DFA)
+### Example 1: String in the Set
 
 ```
 '''
@@ -53,7 +53,7 @@ This string is in the set because it includes all 5 parts of the formal definiti
 The delimiter `###` immediately follows with an input string to check against the DFA.
 
 
-### Example 2: String not in the Set (Rejected by the DFA)
+### Example 2: String not in the Set
 
 ```
 '''
