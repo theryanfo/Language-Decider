@@ -50,7 +50,7 @@ The input string is stripped of any extra whitespace and processed symbol by sym
 ```
 
 This string is in the set because it includes all 5 parts of the formal definition for a DFA, the states, alphabet, transition function, start state, and accept states, all formatted correctly according to the program.
-The delimiter `###` immediately follows with an input string to check against the DFA.
+The delimiter `###` immediately follows with an input string to check against the DFA. The input string finishes being read by the DFA in an accept state (`q3`).
 
 
 ### Example 2: String not in the Set
