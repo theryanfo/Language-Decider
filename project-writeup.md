@@ -72,7 +72,7 @@ The delimiter `###` immediately follows with an input string to check against th
 '''
 ```
 
-This string is not in the set, though it follows a similar format to the above accepted string. This string represents a valid DFA and input string. However, the DFA end up reading the `c`
+This string is not in the set, though it follows a similar format to the above accepted string. This string represents a valid DFA and input string. However, the DFA ends up reading the `c`
 character while in `q1`, for which there is no defined transition, so the DFA rejects the input string.
 
 ## 4. The Code
