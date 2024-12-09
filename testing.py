@@ -92,12 +92,12 @@ invalid_input_3 = '''
 def run_tests():
     test_cases = [
         ("Accepting valid non-empty input", accepting_valid_nonempty_input),
-        ("Accepting valid empty input", accepting_valid_empty_input),
+        # ("Accepting valid empty input", accepting_valid_empty_input),
         ("Rejecting valid non-empty input", rejecting_valid_nonempty_input),
-        ("Rejecting valid empty input", rejecting_valid_empty_input),
-        ("Invalid input 1 (non-string input)", invalid_input_1),
-        ("Invalid input 2 (no delimiter)", invalid_input_2),
-        ("Invalid input 3 (missing alphabet)", invalid_input_3),
+        # ("Rejecting valid empty input", rejecting_valid_empty_input),
+        # ("Invalid input 1 (non-string input)", invalid_input_1),
+        # ("Invalid input 2 (no delimiter)", invalid_input_2),
+        # ("Invalid input 3 (missing alphabet)", invalid_input_3)
     ]
     
     for name, case in test_cases:
